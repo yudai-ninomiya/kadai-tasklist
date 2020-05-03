@@ -10,7 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'TasksController@index');
+//Route::get('/', 'TasksController@index');
 
-Route::resource('tasks', 'TasksController');
+//Route::resource('tasks', 'TasksController');
 
+//twitter cron
+
+Route::get('/', function () {
+    return view('welcome');
+});

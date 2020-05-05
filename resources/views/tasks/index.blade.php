@@ -18,7 +18,7 @@
                    <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>{{ Auth::user()->name }}</th>
+                    <th>user_name</th>
                     <th>id</th>
                     <th>ステータス</th>
                     <th>タスク</th>
